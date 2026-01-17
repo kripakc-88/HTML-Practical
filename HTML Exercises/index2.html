@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Exercise 2 - HTML Form</title>
+</head>
+<body>
+
+    <h1>User Information Form</h1>
+
+    <form>
+
+        <!-- Name -->
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br><br>
+
+        <!-- Gender -->
+        <p>Gender:</p>
+        <label>
+            <input type="radio" name="gender" value="male">
+            Male
+        </label><br>
+
+        <label>
+            <input type="radio" name="gender" value="female">
+            Female
+        </label><br>
+
+        <label>
+            <input type="radio" name="gender" value="other">
+            Other
+        </label><br><br>
+
+        <!-- Hobbies -->
+        <p>Favorite Hobbies:</p>
+        <label>
+            <input type="checkbox" name="hobby" value="reading">
+            Reading
+        </label><br>
+
+        <label>
+            <input type="checkbox" name="hobby" value="gaming">
+            Gaming
+        </label><br>
+
+        <label>
+            <input type="checkbox" name="hobby" value="sports">
+            Sports
+        </label><br><br>
+
+        <!-- Comments -->
+        <label for="comments">Additional Comments:</label><br>
+        <textarea id="comments" name="comments" rows="4" cols="40"></textarea><br><br>
+
+        <!-- Submit -->
+        <input type="submit" value="Submit">
+
+    </form>
+
+</body>
+</html>
